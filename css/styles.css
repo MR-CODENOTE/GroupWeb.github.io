@@ -1,0 +1,1155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3b3737;
+  }
+  html{
+    scroll-behavior: smooth;
+    background-color: #3b3737;
+  }
+
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+    position: relative;
+    position: sticky;  
+    top: 0;            
+    width: 100%;       
+    z-index: 1000;     
+    z-index: 1000;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  
+  .nav-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #333;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      width: 200px;
+      border-radius: 10px;
+      padding: 10px;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .nav-toggle {
+      display: block;
+    }
+  }
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #3b3737;
+  color: #333;
+}
+
+.contact-container {
+  width: 80%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 12px;
+  font-size: 1.1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+      width: 90%;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  button {
+      font-size: 1em;
+  }
+}
+
+
+
+
+
+  #letter1{
+    font-family: Montserrat;
+        color: wheat;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 50px;
+        font-weight: bold;
+        color:#18b157;
+
+}
+#letter2{
+    color: rgb(239, 164, 25);
+    font-size: 18px;
+    text-align: center;
+    font-family: Montserrat;
+}
+#letter3{
+    margin-top: 35px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    color: wheat;
+}
+#KLD{  
+    color: #18b157;
+    font: Montserrat;
+}
+
+
+
+ 
+.banner-container {
+  position: relative;
+  width: 100%;      
+  height: 460px;             
+  overflow: hidden;        
+}
+
+
+.banner-image {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover; 
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .banner-image {
+    object-position: center top; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner-image {
+    object-position: center center; /* Center the image on very small screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #tekken1,
+  #tekken2,
+  #grad1,
+  #honor{
+    width: 220px;
+    height: 220px;
+    margin-left: 20px;
+
+  }
+
+  #Faustino1 {
+    max-width: 1240px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(100, 25, 154, 0.1);
+    border: 3px solid #52c442; /* Updated border color */
+    border-radius: 40px;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #faustino2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #52c442;
+  }
+  
+  #con2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #faustino3 {
+    font-size: 32px;
+    font-family: Pixelify Sans;
+    color: #52c442;
+  }
+  
+  #faustino4 {
+    font-size: 18px;
+    color: #18b157;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .school-logo {
+    display: flex;
+    justify-content: flex-start; /* Align logos to the left */
+    margin-left: 40px; /* Adjust left margin to match the content */
+    gap: 10px; /* Optional: Adds spacing between logos if needed */
+  }
+  
+  .school-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    #Faustino1 {
+      padding: 10px;
+    }
+  
+    #faustino2 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    #faustino3 {
+      font-size: 24px;
+    }
+  
+    #faustino4 {
+      font-size: 16px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #faustino2 {
+      width: 120px;
+      height: 120px;
+    }
+  
+    #faustino3 {
+      font-size: 20px;
+    }
+  }
+  
+  #role1,
+  #faustino5,
+  #faustino8,
+  #faustino10,
+  #faustino12,
+  #faustino14,
+  #faustino15,
+  #faustino16 {
+    font-family: Pixelify Sans;
+    color: #18b157;
+    margin-left: 40px;
+    font-size: 18px;
+  }
+  
+  #role2,
+  #faustino6,
+  #faustino9,
+  #faustino11,
+  #faustino13 {
+    font-family: Pixelify Sans;
+    color: #c641b4;
+    margin-left: 40px;
+  }
+  
+  #elem1,
+  #junior1,
+  #senior1 {
+    color: #cafa64;
+  }
+  
+  #faustino17,
+  #faustino7,
+  #faustino8,
+  #faustino9,
+  #faustino10,
+  #faustino11,
+  #faustino12 {
+    font-size: 20px;
+    color: #18b157;
+    font-family: Pixelify Sans;
+    margin-left: 40px;
+  }
+  
+  #gawad {
+    margin-left: 40px;
+    width: 220px;
+    height: 220px;
+  }
+  
+  #funrun {
+    margin-left: 40px;
+    width: 220px;
+    height: 220px;
+  }
+  
+  #whitebg1-1,
+  #whitebg2-2,
+  #whitebg3-3 {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-left: 40px; 
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  #Ventus1 {
+  max-width: 1240px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(100, 25, 154, 0.1);
+  border: 3px solid #52c442; /* Updated border color */
+  border-radius: 40px;
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+#ventus2 {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #52c442;
+}
+
+#con2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#ventus3 {
+  font-size: 32px;
+  font-family: Pixelify Sans;
+  color: #52c442;
+}
+
+#ventus4 {
+  font-size: 18px;
+  color: #18b157;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.school-logo {
+  display: flex;
+  justify-content: flex-start; /* Align logos to the left */
+  margin-left: 40px; /* Adjust left margin to match the content */
+  gap: 10px; /* Optional: Adds spacing between logos if needed */
+}
+
+.school-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #Ventus1 {
+    padding: 10px;
+  }
+
+  #ventus2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  #ventus3 {
+    font-size: 24px;
+  }
+
+  #ventus4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ventus2 {
+    width: 120px;
+    height: 120px;
+  }
+
+  #ventus3 {
+    font-size: 20px;
+  }
+}
+
+#role1,
+#ventus5,
+#ventus8,
+#ventus10,
+#ventus12,
+#ventus14,
+#ventus15,
+#ventus16 {
+  font-family: Pixelify Sans;
+  color: #18b157;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+#role2,
+#ventus6,
+#ventus9,
+#ventus11,
+#ventus13 {
+  font-family: Pixelify Sans;
+  color: #c641b4;
+  margin-left: 40px;
+}
+
+#elem1,
+#junior1,
+#senior1 {
+  color: #cafa64;
+}
+#ventus17,
+#ventus7,
+#ventus8,
+#ventus9,
+#ventus10,
+#ventus11,
+#ventus12 {
+  font-size: 20px;
+  color: #18b157;
+  font-family: Pixelify Sans;
+  margin-left: 40px;
+}
+#gawad{
+  margin-left: 40px;
+  width: 220px;
+  height: 220px;
+}
+#funrun {
+  margin-left: 40px;
+  width: 220px;
+  height: 220px;
+}
+
+#whitebg1-1,
+#whitebg2-2,
+#whitebg3-3 {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Makes it a perfect circle */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the image inside */
+  margin-left: 40px; /* Reset if previously too far right */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  #bern1 {
+    max-width: 1240px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(100, 25, 154, 0.1);
+    border: 3px solid #52c442;
+    border-radius: 40px;
+  }
+  
+  .profile-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  #bern2 {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 5px solid #52c442;
+  }
+  
+  #con3 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #bern3 {
+    font-size: 32px;
+    font-family: Pixelify Sans;
+    color: #52c442;
+  }
+  
+  #bern4 {
+    font-size: 18px;
+    color: #18b157;
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .school-logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    justify-content: flex-start; /* Align logos to the left */
+    margin-left: 40px; /* Adjust left margin to match the content */
+    gap: 10px; /* Optional: Adds spacing between logos if needed */
+  }
+  
+  .school-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    #bern1 {
+      padding: 10px;
+    }
+  
+    #bern2 {
+      width: 150px;
+      height: 150px;
+    }
+  
+    #bern3 {
+      font-size: 24px;
+    }
+  
+    #bern4 {
+      font-size: 16px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    #bern2 {
+      width: 120px;
+      height: 120px;
+    }
+  
+    #bern3 {
+      font-size: 20px;
+    }
+  }
+
+#role3,
+#bern6,
+#bern9,
+#bern11,
+#bern13,
+#bern15,
+#bern16,
+#bern17 {
+  font-family: Pixelify Sans;
+  color: #18b157;
+  margin-left: 40px;
+  font-size: 18px;
+}
+#bern7,
+#bern11,
+#role4,
+#bern13 {
+  font-family: Pixelify Sans;
+  color: #c641b4;
+  margin-left: 40px;
+  
+}
+#elem1,
+#junior1,
+#senior1{
+    color: #cafa64;;
+}
+
+#bern5,
+#bern8,
+#bern10,
+#bern12,
+#bern14,
+#achievements1 {
+  
+  font-size: 20px;
+  color: #18b157;
+  font-family: Pixelify Sans;
+  margin-left: 40px;
+}
+
+#funrun{
+  margin-left: 40px;
+  width: 220px;
+  height: 220px;
+}
+
+#whitebg1-1,
+#whitebg2-2,
+#whitebg3-3 {
+    background-color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Makes it a perfect circle */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the image inside */
+    margin-left: 40px; /* Reset if previously too far right */
+}
+
+  
+
+
+#Ram1 {
+  max-width: 1240px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(100, 25, 154, 0.1);
+  border: 3px solid #52c442; /* Updated border color */
+  border-radius: 40px;
+}
+
+.profile-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 20px;
+}
+
+#ram2 {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 5px solid #52c442;
+}
+
+#con2 {
+  display: flex;
+  flex-direction: column;
+}
+
+#ram3 {
+  font-size: 32px;
+  font-family: Pixelify Sans;
+  color: #52c442;
+}
+
+#ram4 {
+  font-size: 18px;
+  color: #18b157;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  color: #333;
+}
+
+.school-logo {
+  display: flex;
+  justify-content: flex-start; /* Align logos to the left */
+  margin-left: 40px; /* Adjust left margin to match the content */
+  gap: 10px; /* Optional: Adds spacing between logos if needed */
+}
+
+.school-logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  #Ram1 {
+    padding: 10px;
+  }
+
+  #ram2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  #ram3 {
+    font-size: 24px;
+  }
+
+  #ram4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .profile-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #ram2 {
+    width: 120px;
+    height: 120px;
+  }
+
+  #ram3 {
+    font-size: 20px;
+  }
+}
+#ram17,
+#role1,
+#ram5,
+#ram8,
+#ram10,
+#ram12,
+#ram14,
+#ram15,
+#ram16 {
+  font-family: Pixelify Sans;
+  color: #18b157;
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+#role2,
+#ram6,
+#ram9,
+#ram11,
+#ram13 {
+  font-family: Pixelify Sans;
+  color: #c641b4;
+  margin-left: 40px;
+}
+
+#elem1,
+#junior1,
+#senior1 {
+  color: #cafa64;
+}
+
+#ram7,
+#ram8,
+#ram9,
+#ram10,
+#ram11,
+#ram12 {
+  font-size: 20px;
+  color: #18b157;
+  font-family: Pixelify Sans;
+  margin-left: 40px;
+}
+
+#gawad {
+  margin-left: 40px;
+  width: 220px;
+  height: 220px;
+}
+
+#funrun {
+  margin-left: 40px;
+  width: 220px;
+  height: 220px;
+}
+
+#whitebg1-1,
+#whitebg2-2,
+#whitebg3-3 {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* Makes it a perfect circle */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers the image inside */
+  margin-left: 40px; /* Reset if previously too far right */
+}
+
+#medal1,
+#medal2{
+  width: 220px;
+  height: 220px;
+  margin-left: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.contact-container {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 40px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  padding: 12px;
+  font-size: 1.1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 600px) {
+  .contact-container {
+      width: 90%;
+  }
+
+  h1 {
+      font-size: 1.5em;
+  }
+
+  button {
+      font-size: 1em;
+  }
+}
+
+#gallerygroup {
+  max-width: 100%; 
+  width: 90%; 
+  height: auto; 
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(100, 25, 154, 0.1); 
+  border: 3px solid #52c442; 
+  border-radius: 40px;
+  box-sizing: border-box; 
+}
+
+
+@media (min-width: 768px) {
+  #gallerygroup {
+    max-width: 750px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #gallerygroup {
+    max-width: 1240px;
+    height: 530px;
+  }
+}
+
+
+
+
+
+
+#f1,
+#f2,
+#f3,
+#A1,
+#A2,
+#A3,
+#A4,
+#V1,
+#V2{
+  width: 240px;
+  height: 240px;
+  margin-left: 0px;
+
+}
+
+  .footer {
+    text-align: center;
+    background-color: rgb(47, 20, 70);
+    color: white;
+    padding: 10px 0;
+
+  }
+  
+  .footer p {
+    display: inline-block;
+    margin: 0 15px; 
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+    margin-right: 5px; 
+  }
+  
+  .footer a:hover {
+    color: #ddd; 
+  }
+}
+.centered-image {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 0; 
+}
+.a-image {
+  max-width: 15%; 
+  height: auto; 
+  display: inline-block; 
+}
+#logo{
+  margin-left: 535px;
+  margin-top: 240px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
